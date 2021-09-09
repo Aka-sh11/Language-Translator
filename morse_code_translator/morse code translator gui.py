@@ -159,24 +159,19 @@ if __name__ == "__main__":
     root.iconbitmap("icon.ico")
 
     # Create Welcome to Morse Code Translator label
-    headlabel = Label(root, text='Welcome to Morse Code Translator',
-                      fg='black', bg="red")
+    headlabel = Label(root, text='Welcome to Morse Code Translator', fg='black', bg="red")
 
     # Create a "One Language " label
-    label1 = Label(root, text="One Language ",
-                   fg='black', bg='dark green')
+    label1 = Label(root, text="One Language ", fg='black', bg='dark green')
 
     # Create a "From Language " label
-    label2 = Label(root, text="From Language",
-                   fg='black', bg='dark green')
+    label2 = Label(root, text="From Language", fg='black', bg='dark green')
 
     # Create a "To Language " label
-    label3 = Label(root, text="To Language ",
-                   fg='black', bg='dark green')
+    label3 = Label(root, text="To Language", fg='black', bg='dark green')
 
     # Create a "Converted Language " label
-    label4 = Label(root, text="Converted Language ",
-                   fg='black', bg='dark green')
+    label4 = Label(root, text="Converted Language", fg='black', bg='dark green')
 
     # grid method is used for placing
     # the widgets at respective positions
@@ -189,10 +184,8 @@ if __name__ == "__main__":
 
     # Create a text area box
     # for filling or typing the information.
-    language1_field = Text(root, height=5, width=25,
-                           font="lucida 13")
-    language2_field = Text(root, height=5, width=25,
-                           font="lucida 13")
+    language1_field = Text(root, height=5, width=25, font="lucida 13")
+    language2_field = Text(root, height=5, width=25, font="lucida 13")
 
     # padx keyword argument used to set padding along x-axis .
     language1_field.grid(row=1, column=1, padx=10)
@@ -213,16 +206,12 @@ if __name__ == "__main__":
 
     # Create a Convert Button and attached
     # with convert function
-    button1 = Button(root, text="Convert", bg="red", fg="black",
-                     command=convert)
-
+    button1 = Button(root, text="Convert", bg="red", fg="black", command=convert)
     button1.grid(row=4, column=1)
 
     # Create a Clear Button and attached
     # with clearAll function
-    button2 = Button(root, text="Clear", bg="red",
-                     fg="black", command=clearAll)
-
+    button2 = Button(root, text="Clear", bg="red", fg="black", command=clearAll)
     button2.grid(row=6, column=1)
 
     # Start the GUI

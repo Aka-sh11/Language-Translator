@@ -12,4 +12,4 @@
 
 ## Output:
 
-![](output/languageTranslaator.png)
+![](output/languageTranslator.png)
